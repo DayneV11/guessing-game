@@ -27,7 +27,7 @@ num_guesses = 0
 
 # Check to see if player has guessed the number correctly
 guessed_it = false
-until num_guesses == 10 || guessed_it
+until num_guesses == 5 || guessed_it
 
 # Start the game
 # Convert input to integer, so you don't get letters/special characters as input
